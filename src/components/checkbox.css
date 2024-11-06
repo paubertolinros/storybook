@@ -1,0 +1,47 @@
+/* Contenedor principal */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 15px;
+  }
+  
+  /* Estilos generales del checkbox */
+  .custom-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    appearance: none; /* Eliminar estilo por defecto */
+    border: 2px solid #e6e4e4;
+    border-radius: 4px;
+  }
+  
+  /* Estado sin seleccionar */
+  .custom-checkbox.unchecked {
+    background-color: #e6e6e4;
+  }
+  
+  /* Estado seleccionado */
+  .custom-checkbox.checked {
+    background-color: rgb(60, 253, 211);
+  }
+  
+  /* Estilos del texto */
+  .checkbox-label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Texto sin seleccionar */
+  .checkbox-label.unchecked {
+    color: #e6e4e4;
+  }
+  
+  /* Texto seleccionado */
+  .checkbox-label.checked {
+    color: rgb(60, 253, 211);
+  }
+  
